@@ -1,0 +1,196 @@
+body {
+    font-family: sans-serif;
+    max-width: 100%;
+    max-height: 100%;
+    background-color: #1f2c56;
+    margin: 2%;
+}
+
+.app-header {
+    text-align: center;
+    height: 100px;
+    line-height: 60px;
+    width: 100%;
+    font-size: 40px;
+    margin-top: 12px;
+}
+
+.myTracker{
+  /* background-color: red; */
+  text-align: center;
+}
+.title1{
+  float: left;
+  /* margin-left: 10px; */
+  text-align: center;
+}
+.title2{
+  /* margin-left: 80%; */
+  text-align: right;
+}
+
+.MainBody{
+  width: 100%;
+}
+
+
+.infor2{
+  margin-top: 15px;
+}
+
+.infor3{
+  margin-top: 14px;
+}
+.infor1 h6{
+  margin-top: 12px;
+}
+.infor1{
+  /* height: 150px; */
+  /* background-color: red; */
+}
+
+.country_placeholder{
+  font-size: 22px;
+  margin: 0;
+  padding: 10px;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+  width: cacl(100%-40px);
+}
+
+.dash_overview{
+  margin: 0;
+  padding: 5px;
+  width: calc(100%-40px);
+  height: 60px;
+  margin-top: 10px;
+}
+
+.options_container{
+    border-radius: 5px;
+    background-color: #1f2c56;
+    margin: 4px;
+    border: 1px solid #c1c1c1;
+    padding: 3px;
+    text-align: center;
+    align-items: center;
+    margin:0 auto;
+    /* position: relative; */
+    height: 440px;
+    max-height: 440px;
+    box-shadow: 2px 2px 2px #1f2c56;
+
+}
+
+.infor2{
+  /* height: 440px; */
+  /* max-height: 440px; */
+  border-radius: 5px;
+  background-color: #1f2c56;
+  margin-bottom: 23px;
+}
+
+
+.infor3{
+  margin-top: 10px;
+  border-radius: 5px;
+  background-color: #1f2c56;
+  margin: 5px;
+  width: 99%;
+}
+
+button{
+  background-color: #1f2c56;
+  border: none;
+}
+footer{
+  height: 40px;
+  color: #fff;
+  font-size: 30px;
+  text-align: center;
+}
+
+.global_deaths h6{
+  text-align: center;
+  color: #fff;
+}
+
+.global_deaths p#deaths{
+  text-align:center;
+  color:#dd1e33;
+  font-size :45;
+}
+.global_deaths p.deaths2{
+  text-align:center;
+  color:#dd1e23;
+  font-size:17;
+  margin-top:-12px;
+}
+
+.global_cases{
+
+  background-color: #192444;
+  border: 0.5px solid #190333;
+  border-radius: 5px;
+  padding: 0 5px 0 5px;
+  height: 148px;
+  border-right: 2px solid #fff;
+}
+.global_active{
+  background-color: #192444;
+  border: 0.5px solid #190333;
+  border-radius: 5px;
+  /* border-right: 2px solid #fff; */
+  padding: 0 5px 0 5px;
+  height: 148px;
+
+}
+.global_deaths{
+  background-color: #192444;
+  border: 0.5px solid #190333;
+  border-right: 2px solid #fff;
+  padding: 0 5px 0 5px;
+  border-radius: 5px;
+  height: 148px;
+
+}
+.global_recovery{
+  background-color: #192444;
+  border: 0.5px solid #190333;
+  border-right: 2px solid #fff;
+  border-radius: 5px;
+  height: 148px;
+  padding: 0 5px 0 5px;
+
+}
+
+.data_mid{
+  font-size: 37px;
+}
+.data_end{
+  font-size: 17px;
+}
+
+@media (max-width: 750px) {
+    .country_placeholder{
+      font-size: 16px;
+    }
+    .global_cases , .global_active , .global_deaths , .global_recovery{
+      border: 0.5px solid #190333;
+      border-right: 0.5px solid  #190333;
+
+    }
+    .app-header {
+        text-align: center;
+        font-size: 20px;
+        margin-top: 10px;
+    }
+    .data_mid{
+      font-size: 20px;
+    }
+    .data_end{
+      font-size: 15px;
+      border-bottom: 0.4px solid #c2c2c2;
+    }
+
+}
