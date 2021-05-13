@@ -39,6 +39,9 @@ app = dash.Dash(
 )
 
 
+# for deployment
+server = app.server
+
 app.title ="steve's Covid Dashboard"
 app.layout = html.Div([
 # title
